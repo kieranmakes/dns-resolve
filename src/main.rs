@@ -26,7 +26,6 @@ fn main() {
     format!("{}:53", dns_server_raw)                  
     .parse()                                          
     .expect("invalid address");                       
-  println!("{}", dns_server);
  
   let mut request_as_bytes: Vec<u8> =                 
     Vec::with_capacity(512);                          
